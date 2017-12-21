@@ -1,0 +1,68 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700|Playfair+Display');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif; */
+html, body {
+	height: 100%;
+	font: 300 18px/1.9 'Lato', Arial, sans-serif;
+	color: rgba(23, 23, 23, .7);
+	line-height: 34px;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 90%;
+	box-shadow: 0 0 60px rgba(0, 0, 0, .1);	
+	margin: 75px auto;
+	padding: 110px 120px;
+}
+
+h1 {
+	font-size: 42px;
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	color: #171717
+
+}
+
+.bukva::first-letter {
+	font-size: 110px;
+	line-height: 90px;
+	font-family: 'Playfair Display', serif;
+	float: left;
+	margin: 0 35px 5px 0;
+	color: #171717
+
+}
+p:last-child {
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 100;
+	display: inline-block;
+
+}
+
+span {
+		font-size: 60px;
+		font-style: italic;
+		display: inline-block;
+		line-height: 50px;
+		margin-right: 30px;
+
+}
+
+button {
+	width: 265px;
+	height: 70px;
+	margin-top: 40px;	
+	color: #eaa258;	
+	font: 700 18px/2 'Lato', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	background: #fff;
+	border: 1px solid #eaa258;
+	cursor: pointer;
+}
